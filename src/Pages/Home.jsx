@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { fetchCryptos } from "../api/coinGecko";
-import { CryptoCard } from "../components/CryptoCard";
+import { CryptoCard } from "../Components/CryptoCard";
 export const Home = () => {
   const [cryptoList, setCryptoList] = useState([]);
   const [filteredList, setFilteredList] = useState([]);
